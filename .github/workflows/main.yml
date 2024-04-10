@@ -1,0 +1,8 @@
+name: Flow
+on: push
+jobs:
+  first:
+    runs-on: ubuntu_latest
+    steps:
+      - name: print
+        run: echo konbanwa!
